@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: wheat;
+}
+
+#header_title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#timer {
+  margin: 10px auto;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  justify-content: space-between;
+  border: 1px solid wheat;
+  padding: 100px;
+}
+
+#timer div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid wheat;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px;
+}
+#timer p {
+  font-size: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.buttons button {
+  border: 1px solid gold;
+  padding: 20px;
+  background-color: grey;
+  color: darkblue;
+  text-transform: uppercase;
+  font-weight: bold;
+}
